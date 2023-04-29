@@ -1,29 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="js/scripts.js" defer></script>
+	<link rel="stylesheet" type="text/css" href="css/carramilo.css">
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<title>Jogo 1</title>
+	<title>Carramilo - Projects, contact and more</title>
 </head>
 <body>
-	<header>
-		<nav>
-			<ul class="nav">
-				<li><a href=""><i class="icon material-icons">person</i> Contact Us</a></li>
-				<li><a href=""><i class="icon material-icons">info</i> About</a></li>
-				<li class="dropdown"><a href="" class="dropbtn"><i class="icon material-icons">menu</i> Modes</a>
-					<ul class="dropdown-content">
-						<li><a href="">Adivinha</a></li>
-						<li><a href="">Wordle</a></li>
-					</ul>
-				</li>
-				<li><a href=""><i class="icon material-icons">home</i> Home</a></li>
-				<li id="icone"><a href="">Guilherme Carramilo</a></li>
-			</ul>
-		</nav>
-	</header>
+	<nav class="navbar">
+		<a href="index.html" class="logo"></a>
+		<a href="#" class="toggle-button">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</a>
+		<div class="navbar-links">
+		<ul>
+			<li><a class="active" href="">Home</a></li>
+			<li><a href="">Projects</a></li>
+			<li><a href="contact.html">Contact me</a></li>
+			<li><a href="">Feedback</a></li>
+		</ul>
+		</div>
+	</nav>
+	<section id="tudo">
+		<div id="main">
+			<div id="titulo">Student, Programmer, Developer</div>
+			<a class="saibamais" href="#middle">Learn more</a>
+		</div>
+		<div id="middle">
+			<h1>Welcome!</h1>
+			<p>My name is Guilherme. I'm a young brazilian tech enthusiast,
+				I'm currently studying Computer Science in Rio de Janeiro, Brazil
+				You can find my latest projects, social media or give me feedback
+				through this site! You can also have some fun in the games area :)
+			</p>
+			<div id="buttons">
+				<a class="buttons_down" href="#middle">Projects</a>
+				<a id="middle_button" class="buttons_down" href="#middle">Contact</a>
+				<a class="buttons_down" href="#middle">Feedback</a>
+			</div>
+		</div>
+	</section>
 </body>
-<footer>Guilherme Carramilo &copy All rights reserved</footer>
+<footer>2022 &copy Guilherme Carramilo</footer>
 </html>
